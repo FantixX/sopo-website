@@ -1,0 +1,1 @@
+import{u as n}from"./CxCkys-U.js";import{q as o}from"./DUegK6Gl.js";import{a as r,B as s,f as p,g as m,t as c,C as i}from"./oPxXghL5.js";import"./Z32XWDcQ.js";const C=r({__name:"index",async setup(_){let e,t;const{data:a}=([e,t]=s(()=>n("home",()=>o("/").findOne())),e=await e,t(),e);return(f,u)=>(p(),m("pre",null,c(i(a)),1))}});export{C as default};
