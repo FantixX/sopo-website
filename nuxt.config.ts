@@ -11,5 +11,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
+    '@nuxthq/studio',
   ],
 })
