@@ -13,6 +13,7 @@ defineProps<{
         <div class="flex flex-col justify-center">
             <div class="text-2xl font-semibold">{{ name }}</div>
             <div>{{ age }}</div>
+            <slot></slot>
         </div>
     </div>
 </template>
