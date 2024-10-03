@@ -11,12 +11,7 @@ SoPo Fachschaft
 
 #subtitle
 Fachschaft für Soziologie und Politkwissenschaft
-
-#image
-![image.png](/images/image.png)
 ::
-
----
 
 ::news-overview
 ---
