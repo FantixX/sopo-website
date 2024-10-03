@@ -1,7 +1,18 @@
-<script lang="ts" setup>
+<template>
+  <div>
+    <NuxtLayout>
+      <ContentDoc class="w-full">
+        <template #not-found>
+          <div>Seite Leider nicht gefunden</div>
+        </template>
+      </ContentDoc>
+    </NuxtLayout>
+  </div>
+</template>
 
+<script lang="ts" setup>
 </script>
 
-<template>
-    <ContentDoc></ContentDoc>
-</template>
+<style>
+
+</style>

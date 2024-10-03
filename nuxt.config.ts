@@ -5,12 +5,21 @@ export default defineNuxtConfig({
   content: {
     markdown: {
       anchorLinks: false,
-    }
+    },
+  },
+  eslint: {
+    config: {
+      stylistic: {
+        indent: 'tab',
+      },
+
+    },
   },
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
     '@nuxthq/studio',
+    '@nuxt/eslint',
   ],
 })

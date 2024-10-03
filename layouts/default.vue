@@ -1,6 +1,6 @@
 <template>
-    <div class="max-w-6xl brd m-auto flex flex-col items-center brd min-h-dvh prose-lg">
-        <NavBar></NavBar>
-        <slot></slot>
-    </div>
+  <div class="max-w-6xl w-full m-auto flex flex-col items-center min-h-dvh ">
+    <NavBar />
+    <slot />
+  </div>
 </template>
