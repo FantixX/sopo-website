@@ -1,0 +1,1 @@
+import{_ as o}from"./ClCyEr5r.js";import{a as c,f as t,g as r,k as a}from"./uYZh9Z_5.js";const n={class:"not-prose"},f=c({__name:"FullWidthImage",props:["src"],setup(e){return(_,l)=>{const s=o;return t(),r("div",n,[a(s,{src:e.src,class:"w-full h-96 object-cover"},null,8,["src"])])}}});export{f as default};
