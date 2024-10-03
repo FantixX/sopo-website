@@ -24,7 +24,7 @@
 </template>
 
 <script lang="ts" setup>
-const contents = (await useAsyncData('news', () => queryContent('/news').where({ _partial: false }).find())).data
+const contents = (await useAsyncData('news', () => queryContent('/news').where({ title: { $ne: 'News Index' } }).find())).data
 
 defineProps<{
   headline: string

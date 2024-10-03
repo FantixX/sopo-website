@@ -4,7 +4,6 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
   content: {
-    documentDriven: true,
     markdown: {
       anchorLinks: false,
     },
