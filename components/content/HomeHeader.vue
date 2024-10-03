@@ -1,5 +1,8 @@
 <script lang="ts" setup>
+defineProps<{
+  image: string
 
+}>()
 </script>
 
 <template>
@@ -13,7 +16,7 @@
           <slot name="subtitle" />
         </div>
       </div>
-      <slot name="image" />
+      <NuxtImg :src="image" />
     </div>
     <slot name="divider" />
   </section>
