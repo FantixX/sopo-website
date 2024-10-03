@@ -12,7 +12,6 @@
       <NewsCard
         v-for="news in contents"
         :key="news._id"
-
         :title="news.title"
         :author="news.author"
         :date="news.date"
@@ -25,7 +24,7 @@
 </template>
 
 <script lang="ts" setup>
-const contents = (await useAsyncData('news', () => queryContent('/news').find())).data
+const contents = (await useAsyncData('news', () => queryContent('/news').where({ _partial: false }).find())).data
 
 defineProps<{
   headline: string
